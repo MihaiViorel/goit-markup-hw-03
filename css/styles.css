@@ -119,7 +119,6 @@ body {
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 6%;
-  text-align: center;
   color: var(--white);
 }
 
@@ -320,5 +319,178 @@ body {
   color: var(--inactive-link2);
 }
 
+/* ----------------------------------- Tema 3 -----------------------------------*/
+body {
+  margin: 0;
+}
 
-/* ----------------------------------- Flexbox -----------------------------------*/
+
+/* ----------------------------------- Header -----------------------------------*/
+.global-header .logo-link {
+  padding: 24px 93px 25px 215px;
+}
+.logo {
+  margin: 0px;
+}
+.global-header .main-navigation ul{
+  display: flex;
+  justify-content: space-between;
+  width:259px;
+  padding: 32px 385px 32px 0px;
+  margin: 0px;
+}
+.global-header .global-header-contact {
+  display: flex;
+  justify-content: space-between;
+  width:288px;
+  padding: 32px 215px 32px 0px;
+  margin: 0px;
+}
+/* Header */
+.global-header-container {
+  display: flex;
+  align-items: center;
+  width: 1600px;
+  margin: 0 auto;
+}
+
+.global-header {
+  border-bottom: 1px;
+  border: 1px solid #ECECEC;
+}
+
+/* ----------------------------------- Main - Studio -----------------------------------*/
+/* Hero Section */
+.main-hero {
+  width: 1600 px;
+  height: 600 px;
+}
+
+.main-hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 200px 0px;
+}
+
+.main-hero-title {
+  margin: 0;
+  padding: 30px;
+  text-align: center;
+}
+
+/* Advantages */
+.main-our_advantages-list_title {
+  margin: 0px;
+  padding: 0px;
+}
+.main-our_advantages-list_element {
+  margin: 0px;
+  padding-top: 10px;
+}
+
+.main-our_advantages {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 94px 0px 94px 0px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* What we do */
+
+.main-what_we_do {
+  margin: 0;
+  padding-bottom:50px;
+}
+
+.main-what_we_do-list {
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+  margin: 0 auto;
+  padding: 0px 0px 94px 0px;
+  width: 1200px;
+}
+
+/* Our Team */
+.main-our_team {
+  margin: 0px;
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+
+.main-our_team-list li {
+  background-color: white;
+}
+
+.main-our_team-list {
+  display: flex;
+  justify-content: center;
+  gap: 40px;  
+  padding: 0px 0px 94px 0px;
+  margin: 0 auto;
+  width: 1200px;
+  }
+
+/* ----------------------------------- Main - Portfolio --------------------------------*/
+/* Button List */
+.main-button_list {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  padding: 62px 0px 50px 0px;
+  margin: 0 auto;
+}
+
+.main-button_list li button{
+  padding: 6px 22px;
+  border-radius: 4px;
+}
+
+/* Product List */
+.main-product_list li {
+  border: 1px solid #EEEEEE;
+  padding: 0px 0px 0px 0px;
+}
+
+.main-product_list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 0px 0px 94px 0px;
+  margin: 0 auto;
+  width: 1200px;
+  }
+
+.main-product_list_text {
+  padding: 20px 24px;
+}
+
+.main-product_list li p{
+  margin: 0px;
+}
+
+.main-product_list-title {
+  padding: 0px 0px 4px 0px;
+}
+/* ----------------------------------- Footer ------------------------------------------*/
+.logo-footer {
+  padding: 60px 1240px 28px 215px;
+  margin: 0 auto;
+}
+
+.global-footer ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 72px;
+  margin: 0px;
+  padding: 0px 1154px 60px 215px;
+  margin: 0 auto;
+}
+
+
+
