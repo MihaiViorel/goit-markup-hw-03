@@ -326,6 +326,14 @@ body {
 
 
 /* ----------------------------------- Header -----------------------------------*/
+.main-navigation ul li {
+  padding: 32px 0px;
+}
+
+.global-header-contact li{
+  padding: 32px 0px;
+}
+
 .global-header .logo-link {
   padding: 24px 93px 25px 215px;
 }
@@ -336,14 +344,14 @@ body {
   display: flex;
   justify-content: space-between;
   width:259px;
-  padding: 32px 385px 32px 0px;
+  padding: 0px 385px 0px 0px;
   margin: 0px;
 }
 .global-header .global-header-contact {
   display: flex;
   justify-content: space-between;
   width:288px;
-  padding: 32px 215px 32px 0px;
+  padding: 0px 215px 0px 0px;
   margin: 0px;
 }
 /* Header */
@@ -477,12 +485,13 @@ body {
   padding: 0px 0px 4px 0px;
 }
 /* ----------------------------------- Footer ------------------------------------------*/
+
 .logo-footer {
   padding: 60px 1240px 28px 215px;
   margin: 0 auto;
 }
 
-.global-footer ul {
+.global-footer-container ul {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -492,5 +501,12 @@ body {
   margin: 0 auto;
 }
 
-
+/* Observatii */
+.main-what_we_do-list li img,
+.main-our_team-list li img,
+.main-product_list li img {
+  display: block;
+  max-width: 100%; 
+  height: auto;
+}
 
